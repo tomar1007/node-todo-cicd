@@ -65,7 +65,7 @@ app.get('/todo', function (req, res) {
         }
     })
 
-    // Edit item in the todo list for this example 
+    // Edit item in the todo list
     .put('/todo/edit/:id', function (req, res) {
         let todoIdx = req.params.id;
         // Escapes HTML special characters in attribute values as HTML entities
